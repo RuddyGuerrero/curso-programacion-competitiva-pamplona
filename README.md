@@ -90,8 +90,8 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 - ✅ Clase 17 – [Recorrido en grafos BFS (búsqueda en anchura)](modulo-4-grafos-basicos/17-recorrido-en-grafos-bfs.md)
   - Explicación del algoritmo
   - Implementación
-- ⏳ Clase 18 – Recorrido en grafos BFS (búsqueda en anchura)
-  - BFS en cuadrículas
+- ⏳ Clase 18 – Recorrido en grafos DFS (búsqueda en profundidad)
+  - DFS en cuadrículas
   - Contar componentes
   - Detección de ciclos
 - ⏳ Clase 19 – Algoritmo de Dijkstra
