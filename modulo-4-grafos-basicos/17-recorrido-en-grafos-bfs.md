@@ -19,7 +19,7 @@ La búsqueda en anchura es especialmente importante porque:
 - Modela exploraciones **por niveles**, comunes en problemas reales.
 
 <p align="center">
-  <img src="imagenes/dfs_bfs.png" alt="imagen" width="660">
+  <img src="imagenes/dfs-bfs.png" alt="imagen" width="660">
 </p>
 
 ## 🌐 Fundamentos de la búsqueda en anchura (BFS)

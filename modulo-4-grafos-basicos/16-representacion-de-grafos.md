@@ -6,7 +6,7 @@ La teoría de grafos comenzó en **1736** gracias a **Leonhard Euler**, uno de l
 Euler resolvió el famoso problema de **los puentes de Königsberg**, demostrando que **no era posible** recorrer todos los puentes sin repetir ninguno.
 
 <p align="center">
-  <img src="imagenes/16-puentes_de_konigsberg.png" alt="grafo" width="360"><br>
+  <img src="imagenes/16-puentes-de-konigsberg.png" alt="grafo" width="360"><br>
   <em>Los 7 puentes del río Pregel en Königsberg.</em>
 </p>
 

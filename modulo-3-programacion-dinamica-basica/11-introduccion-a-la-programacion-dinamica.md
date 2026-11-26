@@ -62,7 +62,7 @@ El problema contiene subproblemas que se repiten varias veces.
 **Ejemplo:**  
 Para calcular el número de Fibonacci en la posición \( n \), necesitamos calcular los números en las posiciones \( n-1 \) y \( n-2 \). El subproblema para \( n-2 \) aparece en múltiples ramas de la recursión.  
 Puedes notar esta superposición al observar el árbol de recursión para Fibonacci, donde muchas llamadas se repiten.  
-![alt text](n_terminnos_fibonacci.png)
+![alt text](n-terminos-fibonacci.png)
 
 ## 🔁 Antes de continuar: ¿Qué es una recurrencia?
 

@@ -29,88 +29,90 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 
 ## 🗂️ Plan del curso (25 clases)
 
+✅ material disponible · ⏳ pendiente
+
 ### Módulo 1 – Matemáticas y fundamentos básicos (Clases 1–5)
 
-- [Introducción y estructura del curso](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/6bfd6d1fb46cb0628303765c702db37a434eb77c/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/1%20-%20Introducci%C3%B3n%20y%20estructura%20del%20curso.md)  
+- ✅ Clase 1 – [Introducción y estructura del curso](modulo-1-matematicas-y-fundamentos-basicos/01-introduccion-y-estructura-del-curso.md) · [soluciones](modulo-1-matematicas-y-fundamentos-basicos/01-soluciones.md)
   - Complejidad computacional (Notación Big-O)
   - Complejidad espacial
   - Entrada y salida
-- [Números primos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/6bfd6d1fb46cb0628303765c702db37a434eb77c/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/2%20-%20N%C3%BAmeros%20primos.md)
+- ✅ Clase 2 – [Números primos](modulo-1-matematicas-y-fundamentos-basicos/02-numeros-primos.md) · [soluciones](modulo-1-matematicas-y-fundamentos-basicos/02-soluciones.md)
   - Primalidad utilizando fuerza bruta O(n)
   - Primalidad optimizada con raíz cuadrada O(√n)
-  - Criba de Eratóstenes  
-- [Máximo común divisor (MCD) y mínimo común múltiplo (MCM)](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/6bfd6d1fb46cb0628303765c702db37a434eb77c/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/3%20-%20M%C3%A1ximo%20com%C3%BAn%20divisor%20(MCD)%20y%20m%C3%ADnimo%20com%C3%BAn%20m%C3%BAltiplo%20(MCM).md)
+  - Criba de Eratóstenes
+- ✅ Clase 3 – [Máximo común divisor (MCD) y mínimo común múltiplo (MCM)](modulo-1-matematicas-y-fundamentos-basicos/03-maximo-comun-divisor-mcd-y-minimo-comun-multiplo-mcm.md) · [soluciones](modulo-1-matematicas-y-fundamentos-basicos/03-soluciones.md)
   - MCM: mínimo común múltiplo
   - MCD: máximo común divisor
   - Algoritmo de Euclides
-- [Números perfectos, abundantes y deficientes](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/424211ba4536511aad3fe07e83a16b570a17643e/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/4%20-%20N%C3%BAmeros%20perfectos%2C%20abundantes%20y%20deficientes.md)
+- ✅ Clase 4 – [Números perfectos, abundantes y deficientes](modulo-1-matematicas-y-fundamentos-basicos/04-numeros-perfectos-abundantes-y-deficientes.md) · [soluciones](modulo-1-matematicas-y-fundamentos-basicos/04-soluciones.md)
   - Definición de números perfectos, abundantes y deficientes
   - Implementación por fuerza bruta O(n)
   - Implementación optimizada con raíz cuadrada O(√n)
-- [**Competición 1**: Problemas matemáticos sencillos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/13069ee426d4fedd17f1720ece86c8b96a77f0e9/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/5%20-%20Competici%C3%B3n%201%20Problemas%20matem%C3%A1ticos%20sencillos.md)
+- ✅ Clase 5 – [**Competición 1**: Problemas matemáticos sencillos](modulo-1-matematicas-y-fundamentos-basicos/05-competicion-1-problemas-matematicos-sencillos.md) · [soluciones](modulo-1-matematicas-y-fundamentos-basicos/05-soluciones.md)
 
 ### Módulo 2 – Búsquedas y algoritmos voraces (Clases 6–10)
 
-- [Búsqueda binaria](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/13069ee426d4fedd17f1720ece86c8b96a77f0e9/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/6%20-%20B%C3%BAsqueda%20binaria.md)
+- ✅ Clase 6 – [Búsqueda binaria](modulo-2-busquedas-y-algoritmos-voraces/06-busqueda-binaria.md) · [soluciones](modulo-2-busquedas-y-algoritmos-voraces/06-soluciones.md)
   - Teoría y ejemplos
   - Aplicaciones: encontrar el valor exacto, buscar límites
-- [Algoritmos voraces (greedy) 1](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/3ea9d4c8227ad202cbf9fcd6ab15479fd5f71d48/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/7%20-%20Algoritmos%20voraces%20(greedy)%201.md)
+- ✅ Clase 7 – [Algoritmos voraces (greedy) 1](modulo-2-busquedas-y-algoritmos-voraces/07-algoritmos-voraces-greedy-1.md) · [soluciones](modulo-2-busquedas-y-algoritmos-voraces/07-soluciones.md)
   - Teoría básica
   - Problemas clásicos
-- [Algoritmos voraces (greedy) 2](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/dae33eb9cabe7b4c45d0af7aabe81243ea517c48/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/8%20-%20Algoritmos%20voraces%20(greedy)%202.md):
+- ✅ Clase 8 – [Algoritmos voraces (greedy) 2](modulo-2-busquedas-y-algoritmos-voraces/08-algoritmos-voraces-greedy-2.md) · [soluciones](modulo-2-busquedas-y-algoritmos-voraces/08-soluciones.md)
   - Otros ejemplos de problemas
-- [Técnicas de Sumas Parciales y Aplicaciones en Intervalos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/a1443211bca8262b47c412501efbf534600a364f/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/9%20-%20T%C3%A9cnicas%20de%20sumas%20parciales%20y%20aplicaciones%20en%20intervalos.md)
+- ✅ Clase 9 – [Técnicas de sumas parciales y aplicaciones en intervalos](modulo-2-busquedas-y-algoritmos-voraces/09-tecnicas-de-sumas-parciales-y-aplicaciones-en-intervalos.md) · [soluciones](modulo-2-busquedas-y-algoritmos-voraces/09-soluciones.md)
   - Sumas parciales, prefix max/min
-  - Aplicaciones en intervalos  
-- [**Competición 2**: Problemas de búsqueda y voraces](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/07894c0403077779ff6556869d7f78d6c2d889b8/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/10%20-%20Competici%C3%B3n%202%20Problemas%20de%20b%C3%BAsqueda%20binaria%20y%20voraces.md)
+  - Aplicaciones en intervalos
+- ✅ Clase 10 – [**Competición 2**: Problemas de búsqueda y voraces](modulo-2-busquedas-y-algoritmos-voraces/10-competicion-2-problemas-de-busqueda-binaria-y-voraces.md) · [soluciones](modulo-2-busquedas-y-algoritmos-voraces/10-soluciones.md)
 
 ### Módulo 3 – Programación dinámica (DP) básica (Clases 11–15)
 
-- [Introducción a la programación dinámica](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/0d1815bd04cd267de8823a69b67a3a73cd115682/M%C3%B3dulo%203%20%E2%80%93%20Programaci%C3%B3n%20din%C3%A1mica%20(DP)%20b%C3%A1sica%20(Clases%2011%E2%80%9315)/11%20-%20Introducci%C3%B3n%20a%20la%20programaci%C3%B3n%20din%C3%A1mica.md)
+- ✅ Clase 11 – [Introducción a la programación dinámica](modulo-3-programacion-dinamica-basica/11-introduccion-a-la-programacion-dinamica.md) · soluciones ⏳
   - Conceptos clave
   - Ecuaciones recurrentes
   - Problema de Fibonacci
-- [DP en una dimensión](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/9b98dae45cd2ea8d31591dcc7280bcb0d3619686/M%C3%B3dulo%203%20%E2%80%93%20Programaci%C3%B3n%20din%C3%A1mica%20(DP)%20b%C3%A1sica%20(Clases%2011%E2%80%9315)/12%20-%20DP%20en%20una%20dimensi%C3%B3n.md)
+- ✅ Clase 12 – [DP en una dimensión](modulo-3-programacion-dinamica-basica/12-dp-en-una-dimension.md) · soluciones ⏳
   - Contar cambio con repetición
   - Contar cambio sin repetición
-- Problemas de la mochila 0-1:
+- ⏳ Clase 13 – Problemas de la mochila 0-1
   - Problema clásico y variantes
-- DP en dos dimensiones:
+- ⏳ Clase 14 – DP en dos dimensiones
   - Tablas acumulativas
-- **Competición 4**: Problemas de programación dinámica
+- ⏳ Clase 15 – **Competición 3**: Problemas de programación dinámica
 
 ### Módulo 4 – Grafos básicos (Clases 16–20)
 
-- [Representación de grafos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/90679d0b2019972d96688dbfe8838f4240897395/M%C3%B3dulo%204%20%E2%80%93%20Grafos%20b%C3%A1sicos%20(Clases%2016%E2%80%9320)/16%20-%20Representaci%C3%B3n%20de%20grafos.md):
+- ✅ Clase 16 – [Representación de grafos](modulo-4-grafos-basicos/16-representacion-de-grafos.md)
   - Teoría
-  - Grafos dirigidos y no dirigidos  
+  - Grafos dirigidos y no dirigidos
   - Listas de adyacencia, matriz de adyacencia
-- Recorrido en grafos BFS (búsqueda en anchura):
+- ✅ Clase 17 – [Recorrido en grafos BFS (búsqueda en anchura)](modulo-4-grafos-basicos/17-recorrido-en-grafos-bfs.md)
   - Explicación del algoritmo
   - Implementación
-- Recorrido en grafos BFS (búsqueda en anchura):
+- ⏳ Clase 18 – Recorrido en grafos BFS (búsqueda en anchura)
   - BFS en cuadrículas
   - Contar componentes
   - Detección de ciclos
-- Algoritmo de Disktra:
+- ⏳ Clase 19 – Algoritmo de Dijkstra
   - Explicación del algoritmo
   - Implementación
-- **Competición 3**: Grafos y recorridos básicos
+- ⏳ Clase 20 – **Competición 4**: Grafos y recorridos básicos
 
 ### Módulo 5 – Estructuras de datos básicas (Clases 21–24)
 
-- Union-Find:
+- ⏳ Clase 21 – Union-Find
   - Teoría
-  - Operaciones básicas y optimización  
-- Segment Tree I:
+  - Operaciones básicas y optimización
+- ⏳ Clase 22 – Segment Tree I
   - Concepto
   - Construcción
-- Segment Tree II:
-  - Construcción y consultas  
-- Trie (árbol de prefijos):
+- ⏳ Clase 23 – Segment Tree II
+  - Construcción y consultas
+- ⏳ Clase 24 – Trie (árbol de prefijos)
   - Ejemplos simples
 
-### Clase 25 – Competición final
+### Clase 25 – Competición final ⏳
 
 - Problemas integradores con los temas vistos en el curso
 
