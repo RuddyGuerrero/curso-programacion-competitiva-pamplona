@@ -1,0 +1,2 @@
+# Generated PDFs are published as GitHub Releases, not committed
+*.pdf
