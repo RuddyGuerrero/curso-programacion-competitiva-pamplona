@@ -1,4 +1,4 @@
-# Soluciones a los problemas: Clase 3 – Introducción y Fundamentos
+# Soluciones a los problemas: Clase 3 – Máximo común divisor (MCD) y mínimo común múltiplo (MCM)
 
 ## 📝 [Problemas: Clase 3 – Máximo común divisor (MCD) y mínimo común múltiplo (MCM)](https://www.hackerrank.com/contests/clase-3-maximo-comun-divisor-mcd-y-minimo-comun-multiplomcm/challenges)
 

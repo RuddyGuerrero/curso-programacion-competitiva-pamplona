@@ -10,7 +10,7 @@ Allí presentó el **algoritmo de Euclides**, considerado uno de los algoritmos 
 ✨ **¿Por qué es interesante el MCD?**  
 
 - Sirve para **simplificar fracciones** (por ejemplo, convertir 150/210 en 5/7).
-- Se utiliza en **problemas de sincronización**: si dos eventos ocurren cada `a` y `b` segundos, el MCD ayuda a entender su ciclo común.  
+- Se utiliza en **problemas de sincronización**: si dos eventos ocurren cada `a` y `b` segundos, el MCM indica cada cuánto vuelven a coincidir.  
 - Es esencial en **criptografía** y algoritmos modernos como RSA.  
 - ¡Y lo mejor! Un algoritmo de hace más de **2000 años** sigue resolviendo problemas actuales de informática. 🚀
 
@@ -100,7 +100,7 @@ def mcd_euclides(a, b):
 > ```
 >
 > - **Fuerza bruta:** hemos analizado que tendría que revisar **aproximadamente 10^10 números**, una cantidad enorme de operaciones que tardaría muchísimo tiempo.
-> - **Algoritmo de Euclides:** solo necesita **≈ log2(10^10) ≈ 34 iteraciones**, ¡muchísimo más rápido! 🚀
+> - **Algoritmo de Euclides:** en el peor caso necesita **unas 48 iteraciones** (en este ejemplo, solo 4), ¡muchísimo más rápido! 🚀
 >
 > **Conclusión:** aunque ambos algoritmos resuelven el mismo problema, la **eficiencia** cambia drásticamente según el tamaño de los números.
 

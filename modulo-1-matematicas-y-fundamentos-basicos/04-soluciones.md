@@ -1,6 +1,6 @@
 # Soluciones a los problemas: Clase 4 –  Números Perfectos, Abundantes y Deficientes
 
-## 📝 [Problemas: Clase 4 – M Números Perfectos, Abundantes y Deficientes](https://www.hackerrank.com/problemas-clase-4)
+## 📝 [Problemas: Clase 4 – Números Perfectos, Abundantes y Deficientes](https://www.hackerrank.com/problemas-clase-4)
 
 ## [Números Perfectos Muy Sencillo](https://www.hackerrank.com/contests/problemas-clase-4/challenges/numeros-perfectos-muy-sencillo)
 

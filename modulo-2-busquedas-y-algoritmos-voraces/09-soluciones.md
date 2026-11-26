@@ -1,4 +1,4 @@
-# Soluciones a los problemas: Clase 8 - Algoritmos voraces (greedy) 2
+# Soluciones a los problemas: Clase 9 - Técnicas de sumas parciales y aplicaciones en intervalos
 
 ## 📝 [Problemas: Clase 9 – Técnicas de Sumas Parciales y Aplicaciones en Intervalos](https://www.hackerrank.com/problemas-clase-9)
 
@@ -64,16 +64,9 @@ for i in range(1, len(li)):
     prefix[i] = prefix[i-1] + li[i]
 # Buscar el primer indice de equilibrio
 for i in range(len(li)):
-    # Caso especial: indice 0
-    if i == 0 and prefix[-1] - li[0] == 0:
-        print(0)
-        break
-    # Caso especial: ultimo indice
-    elif i == n-1 and prefix[-1] - li[-1] == 0:
-        print(n-1)
-        break
-    # Caso general: suma izquierda igual a suma derecha
-    if prefix[i-1] == prefix[-1] - prefix[i]:
+    izquierda = prefix[i-1] if i > 0 else 0  # suma de los elementos antes de i
+    derecha = prefix[-1] - prefix[i]         # suma de los elementos despues de i
+    if izquierda == derecha:
         print(i)
         break
 else:

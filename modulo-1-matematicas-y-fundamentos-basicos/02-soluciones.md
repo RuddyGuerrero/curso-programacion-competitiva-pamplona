@@ -1,4 +1,4 @@
-# Soluciones a los problemas: Clase 1 – Introducción y Fundamentos
+# Soluciones a los problemas: Clase 2 – Números primos
 
 ## 📝 [Problemas: Clase 2 – Números primos](https://www.hackerrank.com/clase-2-numeros-primos)
 

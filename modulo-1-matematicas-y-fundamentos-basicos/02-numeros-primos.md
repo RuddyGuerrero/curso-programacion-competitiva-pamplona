@@ -86,8 +86,8 @@ En lugar de probar **todos los números hasta `n-1`**, basta con probar hasta `�
 
 - Si `n` tiene un divisor mayor que `√n`, necesariamente tendrá otro menor que `√n`.  
 - Ejemplo: Para `n = 36`, sus divisores son:  
-  - Menores o iguales a √36 = 6 → {2, 3, 6}  
-  - Mayores que √36 → {12, 18}  
+  - Menores o iguales a √36 = 6 → {1, 2, 3, 4, 6}  
+  - Mayores que √36 → {9, 12, 18, 36}  
   Si encontramos uno pequeño, automáticamente sabemos que existe el grande.
 
 ### 💻 Código en Python usando raíz cuadrada (√n)

@@ -1,4 +1,4 @@
-# Soluciones a los problemas: Clase 7 - Búsqueda binaria
+# Soluciones a los problemas: Clase 7 - Algoritmos voraces (greedy) 1
 
 ## 📝 [Problemas: Clase 7 - Algoritmos voraces (greedy) 1](https://www.hackerrank.com/problemas-clase-7)
 

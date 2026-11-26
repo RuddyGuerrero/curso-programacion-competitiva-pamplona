@@ -111,7 +111,7 @@ def suma_divisores_optimizada(n):
     if n == 1:
         return 0  # 1 es deficiente
     suma = 1  # 1 siempre es divisor propio
-    limite = int(n**(1/2)))
+    limite = int(n**(1/2))
     for i in range(2, limite + 1):
         if n % i == 0:
             suma += i

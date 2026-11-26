@@ -224,7 +224,7 @@ Dadas las horas de **llegada** y **salida** de los trenes en una estación, quer
 - **Salida esperada:** `3`  
 
 **Explicación:**  
-Entre las 9.40 y 11.00 hay tres trenes simultáneamente en la estación, por lo que se requieren **3 plataformas**.
+Entre las 11.00 y las 11.20 hay tres trenes simultáneamente en la estación (los que llegaron a las 9.40, 9.50 y 11.00), por lo que se requieren **3 plataformas**.
 
 ---
 
@@ -232,8 +232,8 @@ Entre las 9.40 y 11.00 hay tres trenes simultáneamente en la estación, por lo 
 
 1. Ordenar las listas de **llegadas** y **salidas**.  
 2. Recorrer ambas listas comparando la hora más próxima.  
-3. Si un tren llega antes de que otro salga ➜ **necesitamos una nueva plataforma**.  
-4. Si un tren sale antes o al mismo tiempo que otro llega ➜ **liberamos una plataforma**.  
+3. Si un tren llega antes o al mismo tiempo que otro sale ➜ **necesitamos una nueva plataforma**.  
+4. Si un tren sale antes de que otro llegue ➜ **liberamos una plataforma**.  
 5. Llevar la cuenta del número máximo de plataformas usadas en cualquier momento.
 
 ---

@@ -59,7 +59,7 @@ Tenemos un candado con `n` anillos, cada uno con los dígitos del 0 al 9. El can
 **Ejemplo:**  
 
 - Entrada: `inicio = "1234"`, `objetivo = "3456"`  
-- Salida: `10` (rotaciones mínimas)
+- Salida: `8` (rotaciones mínimas: 2 por cada anillo)
 
 **Explicación de la solución (greedy):**  
 Para cada anillo, la elección voraz consiste en **girar en la dirección que requiera menos pasos** (ya sea hacia arriba o hacia abajo). Esta decisión localmente óptima para cada anillo asegura el número mínimo total de rotaciones.
@@ -93,7 +93,7 @@ Dado un arreglo de números no negativos, queremos seleccionar el **mínimo núm
 **Ejemplo:**  
 
 - Entrada: `[3, 1, 7, 1, 2, 4]`  
-- Salida: `2` (elementos `[7, 4]` suman 11 > 10)
+- Salida: `2` (elementos `[7, 4]` suman 11 > 7, la suma del resto)
 
 **Explicación de la solución (greedy):**  
 Se ordenan los números de mayor a menor y se van sumando hasta superar la mitad de la suma total. El enfoque greedy consiste en **tomar siempre los elementos más grandes primero**, minimizando el número de elementos necesarios.
@@ -132,10 +132,10 @@ Dado un arreglo de enteros, podemos elegir pares de elementos y eliminar el **ma
 **Ejemplo:**  
 
 - Entrada: `[4, 2, 1, 3]`
-- Salida: `6` (eliminando en orden de menor a mayor: 1+2+3)
+- Salida: `3` (emparejando siempre con el 1: se eliminan 4, 3 y 2, con costo 1 + 1 + 1)
 
 **Explicación de la solución (greedy):**  
-La observación clave es que **cada elemento excepto el máximo se sumará una vez al costo**. Por tanto, el enfoque óptimo es **sumar todos los elementos menos el mayor**, minimizando así el costo total.
+Cada operación elimina un elemento, así que hacen falta exactamente **n - 1 operaciones**. Como el costo es el **menor** del par, lo óptimo es emparejar siempre al **mínimo** con otro elemento: el mínimo nunca se elimina y cada operación cuesta lo menos posible. Costo total: **(n - 1) × mínimo**.
 
 ---
 

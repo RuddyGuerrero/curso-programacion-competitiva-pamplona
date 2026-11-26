@@ -77,12 +77,12 @@ El **arreglo de diferencias** permite hacerlo en **tiempo constante por operaci�
 
 En lugar de modificar el arreglo original en cada operación, guardas solo los **cambios en los extremos** del rango:
 
-1. Inicializa un arreglo `diff` del mismo tamaño que el original, lleno de ceros.  
+1. Inicializa un arreglo `diff` con **una posición más** que el original (`n + 1`), lleno de ceros.  
 2. Para sumar `x` al rango `[l, r]`, haz:
 
    ```python
    diff[l] += x
-   diff[r + 1] -= x   # si r + 1 está dentro del arreglo
+   diff[r + 1] -= x   # la posición extra evita salirse cuando r = n - 1
    ```
 
 3. Al final, reconstruye el arreglo final aplicando **sumas prefix** (acumuladas) sobre `diff`.  

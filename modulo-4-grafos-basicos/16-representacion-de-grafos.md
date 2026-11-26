@@ -85,7 +85,7 @@ En **grafos dirigidos**:
 
 #### Componentes fuertemente conexas (solo en grafos dirigidos)
 
-Un conjunto de nodos es **fuertemente conexo** si puede recorrerse desde cualquier nodo del conjunto hacia cualquier otro respetando la dirección de las aristas. Por ejemplo en el sigiente grafo cada una de las componentes conexas tiene asignada un color.
+Un conjunto de nodos es **fuertemente conexo** si puede recorrerse desde cualquier nodo del conjunto hacia cualquier otro respetando la dirección de las aristas. Por ejemplo, en el siguiente grafo cada una de las componentes fuertemente conexas tiene asignado un color.
 
 <p align="center">
   <img src="imagenes/16-5.png" alt="imagen" width="360">
@@ -156,7 +156,7 @@ Conceptos:
 - **Raiz:** nodo principal o nodo inicial. Ejemplo nodo 0.
 - **Padre:** nodo superior en la jerarquía. Ejemplo el padre del nodo 6 es el nodo 3.
 - **Hijos:** nodos descendientes directos. Ejemplo los hijos del nodo 1 son los nodos 4 y 5.
-- **Hojas:** nodos sin hijos. Ejemplos nodos 4, 5 y 6.
+- **Hojas:** nodos sin hijos. Ejemplos nodos 2, 4, 5 y 6.
 
 <p align="center">
   <img src="imagenes/16-11.png" alt="imagen" width="360">
@@ -233,6 +233,8 @@ Mientras que su matriz de adyacencia sería:
 Un **camino euleriano** es un camino que usa **todas las aristas exactamente una vez**, pero no requiere volver al inicio.
 
 Un **ciclo euleriano** es un camino que usa **todas las aristas exactamente una vez** y **regresa al vértice inicial**.
+
+Todas las condiciones siguientes suponen que las aristas forman una sola componente **conexa** (en dirigidos, conexa si se ignora la dirección). Por ejemplo, dos triángulos separados tienen todos sus grados pares y, sin embargo, no tienen ciclo euleriano.
 
 #### Condiciones en grafos no dirigidos
 

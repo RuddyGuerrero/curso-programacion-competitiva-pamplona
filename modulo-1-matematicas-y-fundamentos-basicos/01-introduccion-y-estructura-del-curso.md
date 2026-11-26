@@ -191,9 +191,8 @@ print("Números leídos:", numeros)
 ```python
 import sys
 
-numeros = []
 for linea in sys.stdin:
-    print("Leí:", line.strip())
+    print("Leí:", linea.strip())
 ```
 
 ### 📝 [Problemas: Clase 1 – Introducción y Fundamentos](https://www.hackerrank.com/clase-1-introduccion-y-fundamentos)
