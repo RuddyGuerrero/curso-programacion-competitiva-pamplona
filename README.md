@@ -7,7 +7,7 @@ Este curso será un reto motivador para quienes quieran introducirse en el fasci
 > "Una computadora puede hacer cualquier cosa que pueda ser descrita como un algoritmo."  
 > — *Alan Turing (padre de la computación moderna)*
 
-El curso está dirigido a estudiantes con un nivel medio de programación, ya que veremos temas avanzados que requieren una base sólida para no quedarse atrás.
+El curso está dirigido a estudiantes con un nivel medio de programación, ya que veremos temas avanzados que requieren una base sólida para no quedarse atrás. Si todavía te falta esa base, empieza por el [Módulo 0 – Fundamentos de Python](#módulo-0--fundamentos-de-python-opcional).
 
 - **Duración**: 25 clases  
 - **Lenguajes**: Python y C++  
@@ -30,6 +30,26 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 ## 🗂️ Plan del curso (25 clases)
 
 ✅ material disponible · ⏳ pendiente
+
+### Módulo 0 – Fundamentos de Python (opcional)
+
+Repaso previo para quienes empiezan a programar. No forma parte de las 25 clases.
+
+- ✅ Clase 0.1 – [Números y operaciones aritméticas elementales](modulo-0-fundamentos-de-python/00-1-numeros-y-operaciones-aritmeticas-elementales.md) · [soluciones](modulo-0-fundamentos-de-python/00-1-soluciones.md)
+  - Cociente y resto de una división
+  - Potencias y raíces
+  - Redondeo con `round()`
+  - Otras funciones integradas: `abs`, `max`, `min`, `sum`, `sorted`
+- ✅ Clase 0.2 – [Ciclos for y while](modulo-0-fundamentos-de-python/00-2-ciclos-for-y-while.md) · [soluciones](modulo-0-fundamentos-de-python/00-2-soluciones.md)
+  - Ciclo `for`, la clase `range`, `break`, `continue` y `else`
+  - Ciclo `while`, `break`, `continue` y `else`
+- ✅ Clase 0.3 – [Trabajo con listas](modulo-0-fundamentos-de-python/00-3-trabajo-con-listas.md) · [soluciones](modulo-0-fundamentos-de-python/00-3-soluciones.md)
+  - Listas unidimensionales
+  - Listas bidimensionales (matrices) y operaciones con matrices
+- ✅ Clase 0.4 – [Recursividad](modulo-0-fundamentos-de-python/00-4-recursividad.md) · [soluciones](modulo-0-fundamentos-de-python/00-4-soluciones.md)
+  - Caso base y pila de llamadas
+  - Funciones recursivas que retornan valores
+  - Generar combinaciones
 
 ### Módulo 1 – Matemáticas y fundamentos básicos (Clases 1–5)
 
